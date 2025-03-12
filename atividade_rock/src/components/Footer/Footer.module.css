@@ -1,0 +1,7 @@
+.footer {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    padding: var(--padding-padrao);
+    background-color: var(--cor-header);
+}

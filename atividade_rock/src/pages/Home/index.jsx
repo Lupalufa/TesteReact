@@ -8,7 +8,7 @@ import Main from "../../components/Main/index"
 function Home() {
     return (
         <>
-            <Header />,
+            <Header />
             <Main />
             <Aside />
             <Footer />
