@@ -29,6 +29,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: var(--fonte-padrao);
   background-color: var(--cor-fundo);
   color: var(--cor-texto);

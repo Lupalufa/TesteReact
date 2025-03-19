@@ -1,9 +1,32 @@
 .cards {
-    display: flex;
+    justify-content: center;
     width: 300px;
     height: 300px;
     padding: 2.5rem;
     border-radius: 20px;
     margin: 20px;
-    background-color:  var(--cor-secao) ;
+    background-color:  var(--cor-secao);
+}
+
+
+.divisao button{
+    background-color: var(--cor-borda);
+    padding: 0.938rem 5.625rem 0.938rem 5.625rem;
+    border-radius: 0.625rem;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mainDetalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    font-size: 20px;
+    background-color: var(--cor-secao);
+    border: none;
+    border-radius: 2px;
 }

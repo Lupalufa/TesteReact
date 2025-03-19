@@ -9,4 +9,13 @@ function Footer() {
     )
 }
 
+export function FooterFixado(){
+    return (
+        <footer className={style.footerFixado}>
+            &copy; 2023 Tema Rock. Todos os direitos reservados.
+
+        </footer>
+    )
+}
+
 export default Footer

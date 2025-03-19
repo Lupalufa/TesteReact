@@ -5,3 +5,12 @@
     padding: var(--padding-padrao);
     background-color: var(--cor-header);
 }
+
+.footerFixado {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: var(--padding-padrao);
+    background-color: var(--cor-header);
+}

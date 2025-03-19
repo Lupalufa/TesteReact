@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./Band.module.css"
 
 function Band({imagem, nome, descricao,}) {
+        
     return (
+       <>
         <div className={style.band}>
                 
                     <img src={imagem} alt="Banda 1" />
@@ -40,6 +42,8 @@ function Band({imagem, nome, descricao,}) {
                 </div>
             </section> */}
         </div>
+        
+        </>
     )
 }
 
