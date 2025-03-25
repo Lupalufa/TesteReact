@@ -1,0 +1,8 @@
+.tipoCalculador {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 250px;
+    font-family: sans-serif;
+}
